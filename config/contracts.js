@@ -37,6 +37,15 @@ module.exports = {
       //SimpleStorage: {
       //  args: [ 100 ]
       //}
+      Auctions: {
+        args: ['$MyNFT']
+      },
+      MyNFT: {
+        args: ["AvarCat", "ACat"]
+      },
+      ERC721Token: {
+        args: ["AvarCat", "ACat"]
+      }
     }
   },
 
