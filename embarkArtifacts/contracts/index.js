@@ -1,15 +1,15 @@
 module.exports = {
 "SafeMath": require('./SafeMath'),
 "ERC721Receiver": require('./ERC721Receiver'),
-"ERC721BasicToken": require('./ERC721BasicToken'),
+"ERC721Token": require('./ERC721Token'),
 "AddressUtils": require('./AddressUtils'),
 "ERC165": require('./ERC165'),
 "SupportsInterfaceWithLookup": require('./SupportsInterfaceWithLookup'),
-"ERC721Basic": require('./ERC721Basic'),
+"ERC721BasicToken": require('./ERC721BasicToken'),
 "ERC721": require('./ERC721'),
 "ERC721Enumerable": require('./ERC721Enumerable'),
 "ERC721Metadata": require('./ERC721Metadata'),
-"ERC721Token": require('./ERC721Token'),
+"ERC721Basic": require('./ERC721Basic'),
 "MyNFT": require('./MyNFT'),
 "Auctions": require('./Auctions'),
 };

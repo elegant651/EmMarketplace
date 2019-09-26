@@ -1,4 +1,4 @@
-import EmbarkJS from 'Embark/EmbarkJS';
+// import EmbarkJS from 'Embark/EmbarkJS';
 
 // import your contracts
 // e.g if you have a contract named SimpleStorage:
@@ -44,7 +44,7 @@ Vue.mixin({
 
 /* eslint-disable no-new */
 const app = new Vue({
-  el: '#container',
+  el: '#app',
   router,
   render: function (h) {
     return h(App);
